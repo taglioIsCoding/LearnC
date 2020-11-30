@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 #include"gestione.h" 
-
+/*gcc address.c addressString.c -o myapp*/
 int main(void){
     Booking bookingArray[MAX];
     int dim = 0;
