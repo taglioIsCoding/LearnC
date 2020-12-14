@@ -39,7 +39,6 @@ int readPoints(char userFile[], User result[], int maxDim, int minPoints){
             i++;
         }
     }
-    
     fclose(fp);
     return i;
 }
@@ -73,7 +72,7 @@ int main(void){
     int tot;
     int i;
 
-    printf("Give me the min number of points i willl print the users\n");
+    printf("Give me the min number of points i willl print the users which name starts with Ma\n");
     printf("Insert min number of points:\n");
     scanf("%d", &minPoints);
 
@@ -81,9 +80,8 @@ int main(void){
     users = (User *) malloc(sizeof(User) * tot);
     tot = readPoints(fileName, users, MAX, minPoints);
 
-
     for(i = 0; i < tot; i ++){
-        if(users[i].name[0]=='M' && users[i].name[1]=='e')
+        if(users[i].name[0]=='M' && users[i].name[1]=='a')
         printf("User: %s Points: %d\n", users[i].name, users[i].points);
     }
 
