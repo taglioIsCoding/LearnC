@@ -1,7 +1,7 @@
 #include <stdio.h> 
 #include <stdlib.h>
 #include"list.h"
-/*gcc voteList.c list.c -o voteList;*/
+/*gcc voteList.c list.c element.c -o voteList;*/
 
 
 typedef item *list;

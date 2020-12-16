@@ -37,7 +37,7 @@ list cons(Element e, list l)
 void showList(list l)
 { printf("[");
 while (!empty(l)) {
-        printf("% d", head(l));
+        printf("%s %d", head(l).name, head(l).id);
         l = tail(l);
         // NON PRIMITIVE
         if (!empty(l))
