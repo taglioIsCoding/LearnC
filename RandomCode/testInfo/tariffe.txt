@@ -1,0 +1,8 @@
+Bs2@Volta@2.4
+Vittoria@Volta@5.3
+Bufalora@Bs2@7.2
+StazioneFS@Vittoria@5.5
+Marconi@Europa@3
+Piave@Del Bono@4
+Marconi@Bs2@6
+Del Bono@Del Bono@1

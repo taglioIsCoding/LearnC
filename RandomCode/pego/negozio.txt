@@ -1,0 +1,8 @@
+95645 astronave_con_jedi_star_wars_IX C 2 499.00
+95000 astronave_star_wars_IX S 1 459.00
+645 jedi_star_wars_IX S 1 69.00
+67000 medioevo_castello S 1 199.00
+67914 medioevo_castello_con_drago C 0 220.00
+914 medioevo_drago S 1 35.00
+1212 medioevo_castello_elefanti C 0 220.00
+915 elefenti S 1 35.00
